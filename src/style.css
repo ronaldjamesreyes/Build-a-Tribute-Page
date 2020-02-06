@@ -42,7 +42,6 @@ body *{
   padding: auto;
 }
 
-
   blockquote {
     margin: 2rem auto;
     height: auto;
@@ -53,11 +52,10 @@ body *{
     margin: 10px;
     padding-top: 10px;
     text-align: center;
-    
   }
 
 hr {
-  margin: 3rem auto;
+  margin: 2rem auto;
   border: 0.5px solid #333;
   width: 200px;
 }
@@ -65,8 +63,14 @@ hr {
 .list-container{
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to right,#1b262c, #0f4c75, #3282b8, #bbe1fa);
+  background-image: linear-gradient(to right,#bbe1fa, #3282b8, #3282b8, #bbe1fa);
+  padding: 15px 0px 30px 0px;
   text-align: center;
+}
+
+.info{
+  text-align: left;
+  padding: 0px 150px 0px 200px;
 }
 
 #footer-page{
